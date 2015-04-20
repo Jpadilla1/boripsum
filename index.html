@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Boricua Ipsum</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <style>
+        html,body {
+            color: #555;
+        }
+    </style>
+    <body>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">Boricua Ipsum</h2>
+                    <h4 class="text-center">Like Lorem Ipsum but Boricuafied by <a href="https://github.com/Jpadilla1">José Padilla</a></h4>
+                    <hr>
+                </div>
+                <div class="col-md-12">
+                    <div class="text-center form-inline">
+                        <button type="button" id="gen-btn" class="btn btn-primary btn-lg">Generate</button>
+                        <input type="number" min="1" max="50" class="form-control" id="paragraphs" placeholder="Paragraphs" style="width: 150px;">
+                    </div>
+                    <br>
+                    <br>
+                    <div id="boripsum" class="lead"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="demo.js"></script>
+    </body>
+</html>
